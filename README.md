@@ -164,7 +164,7 @@ Response:
 
 **Add Todo**
 
-URL: http://localhost:8080/addTodo
+URL: http://localhost:8080/add
 Request:
   {
 	"category":"Done",
@@ -180,12 +180,12 @@ Response:
 
 
 **Delete Todo**
-URL: http://localhost:8080/deleteTodo?userid=20
+URL: http://localhost:8080/delete?userid=20
 Response:
   false
   
   **Update Todo**
-URL: http://localhost:8080/updateTodo
+URL: http://localhost:8080/update
 Request:
   {
 	"category":"Done",
