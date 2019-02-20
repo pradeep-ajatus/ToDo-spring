@@ -90,7 +90,7 @@ Response:
 
 
 **Delete Todo**
-URL: http://localhost:8080/delete?userid=20
+URL: http://localhost:8080/delete?id=20
 Response:
   false
   
